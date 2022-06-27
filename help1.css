@@ -1,0 +1,305 @@
+/*.................layout laptop...................*/
+.nav2{
+	margin: 0px 20px;
+	padding-top: 140px;
+}
+.nav2 img{
+	width: 800px;
+	height: 400px;
+	position: relative;
+	border: 1px solid grey;
+
+}
+
+.section{
+	padding: 20px 0;
+	
+}
+.nen{
+background-color: #F5F5F5;
+}
+
+.section-content{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 5px;
+}
+.section-content-left{
+	width: 20%;
+	padding-top: 20px;
+	border-right: 1px solid grey;
+}
+.section-content-left a{
+	text-decoration: none;
+	color: red;
+}
+.section-content-left h3{
+text-align: center;
+}
+.section-content-left ul;{
+	margin-left: 3px;
+}
+.section-content-right2{
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	padding: 8px;
+	flex-wrap: wrap;
+	background-color: white;
+}
+.section-content-right2 .slider-product-one-content-item {
+	width: 230px;
+	background-color: white;
+	padding: 50px 12px;
+	margin: 8px 2px;
+	cursor: pointer;
+	border: 0.5px solid grey;
+	box-shadow: 2.5px 2.5px 2.5px #888888;
+}
+.slider-product-one-content-img2{
+
+display: flex;
+justify-content: space-between;
+margin: 5px 20px;
+
+
+}
+.slider-product-one-content-img2 img{
+	width: 590px;
+	height: 188px;
+	transition: all 0.4s ease;
+	cursor: pointer;
+}
+
+.slider-product-one-content-menu {
+	padding: 10px 0px;
+	display: flex;
+	justify-content: space-around;
+
+}
+.slider-product-one-content-menu li{
+	background-color: white;
+	padding: 6px;
+	margin: 10px;
+	width: 150px;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 15px;
+	border: 1px solid black;
+	transition: all 0.4s ease;
+
+}
+.slider-product-one-content-menu li:hover{
+/*	background-color: 	#AAAAAA;
+	color: 	#666666;*/
+	transform: scale(1.03);
+	box-shadow: 2.5px 2.5px 2.5px #888888;
+}
+.slider-product-one-content-menu li a{
+	color: red;
+	text-decoration: none;
+}
+.section-content-right-bottom {
+	margin-left: 80%;
+	padding-top: 20px;
+}
+/*...........trang dien thoai.............*/
+.nav1{
+	margin: 0px 20px;
+	padding-top: 140px;
+}
+.nav1 img{
+	width: 800px;
+	height: 400px;
+	position: relative;
+	border: 1px solid grey;
+}
+.slider-product-one-content-img1{
+
+display: flex;
+justify-content: space-between;
+margin: 5px 20px;
+
+}
+.slider-product-one-content-img1 img{
+	width: 292px;
+	height: 160px;
+	transition: all 0.4s ease;
+	cursor: pointer;
+
+}
+.section-content-right1{
+
+display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 8px;
+	flex-wrap: wrap;
+	background-color: #F5F5F5;
+}
+.slider-product-one-content-items1 {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+.slider-product-one-content-items1 .slider-product-one-content-item {
+	width: 235px;
+	background-color: white;
+	padding: 50px 12px;
+	margin: 8px 2px;
+	cursor: pointer;
+	border: 0.5px solid grey;
+	box-shadow: 2.5px 2.5px 2.5px #888888;
+	
+}
+/*.............gioithieu................*/
+.section-gioithieu {
+	display: flex;
+	justify-content: space-between;
+padding-top: 150px;
+padding-bottom: 20px;
+}
+.section-gioithieu a{
+	text-decoration: none;
+}
+.section-gioithieu-left{
+	width: 74%;
+	padding-left: 15px;
+}
+.section-gioithieu-left1{
+
+}
+.section-gioithieu-left2{
+	background-color: whitesmoke;
+position: absolute;
+height: 40px;
+border: 2px solid #666666;
+}
+.section-gioithieu-left2 p{
+	padding: 7px 7px;
+
+}
+.section-gioithieu-left3{
+padding-top: 50px;
+}
+.section-gioithieu-left3 img{
+	width: 100%;
+	height: 400px;
+}
+/*...................hoi dap...............*/
+.section-gioithieu-left01{
+	background-color: 	#DDDDDD;
+	padding: 10px;
+}
+.section-gioithieu-left01 button{
+	border: 0.5px solid grey;
+	border-radius: 5px;
+	background-color: #33CC33;
+	padding: 3px 6px;
+	box-shadow: 2.5px 2.5px 2.5px #888888;
+	color: white;
+}
+.section-gioithieu-left02{
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-around;
+
+}
+.section-gioithieu-left01-item{
+	display: flex;
+	justify-content: space-between;
+}
+.section-gioithieu-left02 li{
+	width: 280px;
+	height: 70px;
+	cursor: pointer;
+padding: 1px 8px;
+color: white;
+text-shadow: 5px 2px 4px grey;
+border-radius: 8px;
+transition: all 0.4 ease;
+}
+.section-gioithieu-left02 li:hover{
+transform: scale(1.08);
+}
+.section-gioithieu-left02 li:nth-child(1) {
+	background-color:	#99FF66;
+}
+.section-gioithieu-left02 li:nth-child(2) {
+	background-color: red;
+}
+
+.section-gioithieu-left02 li:nth-child(3) {
+	background-color: 	#3333CC;
+}
+/*.................gioithieuright...........*/
+
+.section-gioithieu-right{
+padding-left: 14px;
+width: 25%;
+border-left: 1px solid 	#AAAAAA;
+}
+.section-gioithieu-right1 a{
+color: red;
+}
+.section-gioithieu-right1 a p{
+	font-size: 11px;
+}
+.section-gioithieu-right1 a:hover {
+	color: blue;
+}
+.section-gioithieu-right2{
+
+}
+.item-gioithieu{
+	display: flex;
+	margin: 10px 3px;
+}
+.item-gioithieu li:nth-child(1){
+
+}
+.item-gioithieu li:nth-child(2){
+width: 200px;
+padding-left: 20px;
+margin-top: -5px;
+}
+.item-gioithieu img{
+	width: 60px;
+	height: 60px;
+	border: 1px solid #AAAAAA;
+}
+.item-gioithieu a{
+	color: red;
+}
+.item-gioithieu li:hover > a{
+	color: blue;
+}
+.section-gioithieu-right3 a{
+color: red;
+}
+.section-gioithieu-right4 a{
+color: red;
+}
+/*..................tintuc...........*/
+.section-tintuc-left{
+	border: 1px solid  grey;
+	box-shadow: 1px 1px 1px #AAA;
+	padding: 6px;
+	margin-top: 25px;
+}
+.section-tintuc-left-head{
+
+}
+.section-tintuc-left-center {
+	display: flex;
+	justify-content: space-between;
+}
+.section-tintuc-left-center li{
+padding: 6px;
+}
+.section-tintuc-left-bottom{
+	display: flex;
+}
+.section-tintuc-left-bottom li:nth-child(2){
+	margin-left: 630px;
+}
