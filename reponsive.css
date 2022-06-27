@@ -292,3 +292,96 @@ position: relative;
 		margin-top: -100px;
 	}
 	}
+@media screen and (max-width: 570px){
+.header-center ul li:nth-child(1){
+	display: none;
+}
+.slider-product-one-content-bottom{
+	margin: auto;
+}
+.header-center ul li:nth-child(1) img{
+height: 45px;
+width: 40px;
+margin-left: 0;
+margin-top: 0;
+}
+
+
+.header-center ul li:nth-child(2){
+	position: relative;
+	padding-left: 0;
+	padding-top: 8px;
+	margin-left: -20px;
+	display: flex;
+}
+.header-center ul li:nth-child(2) input{
+height: 30px;
+width: 170px;
+border: none;
+padding-left: 80px;
+outline: none;
+}
+.header-center ul li:nth-child(2) button:nth-child(1){
+position: absolute;
+height: 30px;
+width: 73px;
+cursor: pointer;
+border: none;
+
+}
+.header-center ul li:nth-child(2) > i{
+	background-color: white;
+	height: 30px;
+	padding: 8px;
+
+	cursor: pointer;
+	width: 30px;
+	/*position: absolute;
+	font-size: 10px;
+	width: 50px;
+	height: 30px;
+	cursor: pointer;
+	border: none;*/
+
+}
+.header-center ul li:nth-child(3) button{
+	margin-top: 8px;
+	width: 83px;
+height: 30px;
+padding: 5px;
+cursor: pointer;
+background-color: transparent;
+color: white;
+border: 1px solid rgb(70, 68, 68);
+transition: all 0.3s ease;
+
+}
+.header-center ul li:nth-child(3) button i{
+margin-right: 3px;
+}
+.header-center ul li:nth-child(4){
+	padding: 9px 4px;
+	margin-left: 20px;
+}
+.header-center ul li:nth-child(4) a{
+	text-decoration: none;
+	font-size: 11.5px;
+}
+.header-center ul li:nth-child(5){
+padding: 9px 0px;
+	margin-left: 3px;
+}
+.header-center ul li:nth-child(5) a{
+	text-decoration: none;
+		font-size: 11.5px;
+}
+.menu ul li{
+padding:10px 5px;
+position: relative;
+}
+.menu ul li a{
+	color: red;
+	font-size: 11.3px;
+	text-decoration: none;
+}
+	}
